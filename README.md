@@ -29,8 +29,9 @@ Task 1.
 
 Task 2. 
 - Links hosted in the feature layer items and data. 
-- ID: 5fce73ad83c54e9589318db8aae5bbc4
-- URL: https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/tree_collection5/FeatureServer/0
+- Developer's Detailed Item's Page: https://developers.arcgis.com/layers/5fce73ad83c54e9589318db8aae5bbc4
+- ArcGIS Online Items Page: https://fleming.maps.arcgis.com/home/item.html?id=5fce73ad83c54e9589318db8aae5bbc4
+- REST API: https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/tree_collection5/FeatureServer/0
 
 Task 3. 
 - Read through the task and took a look at how the URL tokens functions through the discussion post.
