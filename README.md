@@ -12,3 +12,8 @@ Task 3.
 
 Task 4. 
 - Completed creating and generating id, client and token for this task. Will provide the url with the token as needed. 
+
+Task 5. 
+- Completed all 3 maps, including the bonus map: Display a Map, Display Your Location and Add a Point, Line and Polygon. 
+- Created a point map of the birth of St.Valentine's and added a pop up menu alongside a diamond shaped symbol and changed the colours to match Valentine's Day colours. 
+- My origin plan would have been to use a polygon, however, the longtitude and latitude is not lining up. 
