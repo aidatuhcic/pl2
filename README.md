@@ -5,3 +5,6 @@ Task 1.
 
 Task 2. 
 - Links hosted in the feature layer items and data. 
+
+Task 3. 
+- Read through the task and took a look at how the url tokens functions. 
