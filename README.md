@@ -15,5 +15,5 @@ Task 4.
 
 Task 5. 
 - Completed all 3 maps, including the bonus map: Display a Map, Display Your Location and Add a Point, Line and Polygon. 
-- Created a point map of the birth of St.Valentine's and added a pop up menu alongside a diamond shaped symbol and changed the colours to match Valentine's Day colours. 
-- My origin plan would have been to use a polygon, however, the longtitude and latitude is not lining up. 
+- Created a polygon map of the birth of St.Valentine's and added a pop up menu alongside it to describe the location and a brief history of why he is regarding as Saint Valentine's. Also included Valentine's Day themed colours and changed some sizing. 
+- Would have used striped features, however it did not look presentable.  
