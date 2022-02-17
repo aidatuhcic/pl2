@@ -8,6 +8,7 @@ Task 2.
 
 Task 3. 
 - Read through the task and took a look at how the url tokens functions through the discussion post.
+- Understood how the various compontents of the URL. 
 
 Task 4. 
 - Completed creating and generating id, client and token for this task. Will provide the url with the token as needed. 
