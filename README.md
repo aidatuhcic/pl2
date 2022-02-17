@@ -45,3 +45,5 @@ Task 5.
 - Created a polygon map of the birth place location of St.Valentine's and added a pop up menu alongside it to describe the location and a brief history of why he is regarded as Saint Valentine's. Also included Valentine's Day themed colours and changed some sizing. 
 - Would have used striped features, however it did not look presentable. 
 - Added some comments to each map. 
+
+LAST UPDATED: 9:20 am on February 17th to add forgetten links for Task 2 in Week 4 Checklist. 
