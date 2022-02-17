@@ -1,6 +1,24 @@
 # Week 3: ArcGIS Online Introduction
 
+Task 1. 
+- Finished completing the course and earning the certificate for ArcGIS Online Basics.
+- Downloaded the Certificate.
+
+Task 2. 
+- Finished and completed the web course - Creating and Sharing GIS Content Using ArcGIS Online. 
+- Downloaded Transcript and Certificate. 
+- Produced a 90% grade. 
+
+Task 3. 
+- Reviewed and read through the multitude of articles. 
+
+Task 4. 
+- Reviewed and read through the recommended article. 
+
 Task 5.
+- Looked at examples on how JSON functions. 
+- Created a GeoJSON map of current hometown. 
+- Used a recommended reference and uploaded to ArcGIS Online and filling in the required metadata. 
 - Added GeoJSON map of current hometown to GitHub.
 
 # Week 4: ArcGIS Online Development Introduction
