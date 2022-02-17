@@ -7,7 +7,7 @@ Task 2.
 - Links hosted in the feature layer items and data. 
 
 Task 3. 
-- Read through the task and took a look at how the url tokens functions. 
+- Read through the task and took a look at how the url tokens functions through the discussion post.
 
 Task 4. 
 - Completed creating and generating id, client and token for this task. Will provide the url with the token as needed. 
