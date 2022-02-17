@@ -40,57 +40,88 @@
 
       const view = new MapView({
         map: map,
-        center: [12.63942969, 42.5629559], // Longitude, latitude
-        zoom: 13,
+        center: [12.6424, 42.5644], // Author's Note: Longitude and Latitude of Terni, Italy.
+        zoom: 15, 
         container: "viewDiv"
     });
 
       const graphicsLayer = new GraphicsLayer();
       map.add(graphicsLayer);
 
-      const point = { //Create a point
-        type: "point",
-        longitude: 12.6392969, // Author's Note: Terni, Italy
-        latitude: 42.5629559 // Author's Note: Terni, Italy
-    };
+    // Create a polygon geometry
+    // Author's Note: Longtitude and Latitude polygon fill of Terni, Italy. 
+      const polygon = {
+        type: "polygon",
+        rings: [
+        [12.636938095092773,42.55937108566089],
+        [12.641744613647461,42.55763248666914],
+        [12.645177841186522,42.557347984040355],
+        [12.646851539611816,42.557474429813276],
+        [12.647881507873535,42.557980210342805],
+        [12.648997306823729,42.5593078647281],
+        [12.64994144439697,42.5598768508172],
+        [12.6507568359375,42.55949752733431],
+        [12.652988433837889,42.56145734050785],
+        [12.65350341796875,42.56294296431334],
+        [12.654061317443848,42.56401764884481],
+        [12.654919624328612,42.565029099728314],
+        [12.654318809509277,42.56531356733471],
+        [12.653203010559082,42.56727319782053],
+        [12.652044296264648,42.56967524153444],
+        [12.651185989379883,42.57008610816861],
+        [12.650027275085447,42.56999129303172],
+        [12.647709846496582,42.56986487262499],
+        [12.64376163482666,42.57002289809336],
+        [12.642345428466797,42.56967524153444],
+        [12.6417875289917,42.56891671140717],
+        [12.640843391418457,42.56879028882248],
+        [12.640414237976074,42.56828459592148],
+        [12.640457153320312,42.56787371742073],
+        [12.639341354370115,42.566419817917584],
+        [12.638139724731445,42.56515552993573],
+        [12.63676643371582,42.56341709212393],
+        [12.636723518371582,42.56196308875351],
+        [12.63676643371582,42.55956074807492]
+    ]
+ };
 
-      const simpleMarkerSymbol = {
-        style: "diamond", // Author's Note: Didn't have a heart shape, so I made it a diamond instead. 
-        size: "20", // Author's Note: Size of diamond
-        type: "simple-marker",
-        color: "#FFBBC1",  // Author's Note: A lighter pink for Valentine's Day.
+    const simpleFillSymbol = {
+        // style: "diagonal-cross", // Author's Note: diagonal cross doesn't look as nice, but wanted to change it up - there's this option too. 
+        type: "simple-fill",
+        color: [255, 187, 193, 0.9],  // Author's Note: A lighter pink with opacity for Valentine's Day.
         outline: {
         color: "#FF6F77", // Author's Note: A darker pink outline for Valentine's Day. 
-        width: 3 // Author's Note: Changes the width
+        width: 4 // Author's Note: Changed the width of the outline. 
         }
-    };
+};
 
-    // pop up template
+    // Author's Note: Pop Up Template
     const popupTemplate = {
         title: "{Name}",
         content: "{Description}"
-    }  
+    }
 
-    // pop template with brief history of Saint Valentine's
+    // Author's Note: Title and Description of Saint Valentines. 
     const attributes = {
         Name: "Birth Place of Saint Valentines.",
         Description: "The modern day birth place of Saint Valentine's - after who we celebrate/practice Valentine's Day after. He was known to perform secret weddings for young soliders and their partners in secret, after the Roman Emperor Claudis II (at the time) forbade young people for getting married as he thought unmarried men made stronger soliders."
     }
 
-    const pointGraphic = new Graphic({
-        geometry: point,
-        symbol: simpleMarkerSymbol,
+    const polygonGraphic = new Graphic({
+        geometry: polygon,
+        symbol: simpleFillSymbol,
 
         attributes: attributes,
         popupTemplate: popupTemplate
+
     });
 
-    graphicsLayer.add(pointGraphic);    
+    graphicsLayer.add(polygonGraphic);
     });
 
-    </script>
-    </head>
-    <body>
-      <div id="viewDiv"></div>
-    </body>
-    </html>
+</script>
+</head>
+<body>
+  <div id="viewDiv"></div>
+</body>
+</html>
