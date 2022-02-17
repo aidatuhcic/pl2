@@ -1,3 +1,8 @@
+# Week 3: ArcGIS Online Introduction
+
+Task 5.
+- Added GeoJSON map of current hometown to GitHub.
+
 # Week 4: ArcGIS Online Development Introduction
 
 Task 1. 
