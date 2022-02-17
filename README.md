@@ -20,6 +20,7 @@ Task 5.
 - Created a GeoJSON map of current hometown. 
 - Used a recommended reference and uploaded to ArcGIS Online and filling in the required metadata. 
 - Added GeoJSON map of current hometown to GitHub.
+- https://fleming.maps.arcgis.com/home/item.html?id=ecbc58500f83430180c59eefe628fbfc
 
 # Week 4: ArcGIS Online Development Introduction
 
